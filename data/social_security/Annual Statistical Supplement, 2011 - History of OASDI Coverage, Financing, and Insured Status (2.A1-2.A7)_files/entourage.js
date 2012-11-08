@@ -1,0 +1,6 @@
+/*!
+ * Entourage 1.1.2 - Automatic Download Tracking for Asynchronous Google Analytics
+ * Copyright (c) 2011 by Tian Valdemar Davis (http://techoctave.com/c7) Licensed under the MIT (http://en.wikipedia.org/wiki/MIT_License) license.
+ * Learn More: http://techoctave.com/c7/posts/58-entourage-js-automatic-download-tracking-for-asynchronous-google-analytics
+ */
+(function() {var entourage=new (function(){var v="1.1.2";var w=/\.pdf$|\.zip$|\.doc*|\.xls*|\.ppt*|\.exe$/i;var g=function(p){p=p.substring(0,(p.indexOf("#")===-1)?p.length:p.indexOf("#"));p=p.substring(0,(p.indexOf("?")===-1)?p.length:p.indexOf("?"));return p;};var a=function(){var f=g(this.pathname);_gaq.push(['a._trackPageview',f]);_gaq.push(['_trackPageview',f]);};var initialize = function(){var d=document.links;var h=document.location.hostname;for(var i=0,l=d.length;i<l;i++){var match=d[i].pathname.match(w);if(typeof match!=="undefined"&&match!==null&&d[i].hostname==h){d[i].onclick=a;}}};return {version:v,initialize:initialize};})();window.entourage=entourage;window.onload=entourage.initialize;})();

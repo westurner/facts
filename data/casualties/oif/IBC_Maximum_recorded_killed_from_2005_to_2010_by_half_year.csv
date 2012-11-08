@@ -1,0 +1,25 @@
+"Data compiled by Iraq Body Count as of Saturday, 30th December 2010"
+"The reports from which this data is derived have all been in the public domain."
+"This derivation is copyrighted to Iraq Body Count (IBC)."
+"Permission to use it for commercial use must be obtained from admin AT iraqbodycount.org"
+"For a detailed explanation of IBC figures and how they are derived, see"
+"http://www.iraqbodycount.org/about/"
+
+Maximum recorded killed from 2005 to 2010 by half year
+"dataset 1: including US-led coalition or Iraqi state forces, in Iraq, any weapons, killing 1 or more"
+"dataset 2: including coalition forces, in Iraq, any weapons, killing 1 or more"
+"dataset 3: US-led coalition forces without Iraqi state forces, in Iraq, any weapons, killing 1 or more"
+
+"Period Starting","dataset 1","dataset 2","dataset 3"
+"Jan 2005",560,488,422
+"Jul 2005",726,598,578
+"Jan 2006",508,422,390
+"Jul 2006",712,525,494
+"Jan 2007",1218,993,671
+"Jul 2007",914,677,638
+"Jan 2008",895,536,424
+"Jul 2008",183,104,100
+"Jan 2009",87,52,43
+"Jul 2009",84,29,22
+"Jan 2010",65,25,11
+"Jul 2010",48,7,6

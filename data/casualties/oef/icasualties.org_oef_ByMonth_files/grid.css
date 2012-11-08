@@ -1,0 +1,181 @@
+﻿table.servicesT
+{ font-family: Verdana;
+font-weight: normal;
+font-size: 11px;
+color: #404040;
+width: 320px;
+background-color: #fafafa;
+border: 1px #6699CC solid;
+border-collapse: collapse;
+border-spacing: 0px;
+margin-top: 0px;}
+
+
+table.servicesT td.servHd
+{ border-bottom: 2px solid #6699CC;
+background-color: #BEC8D1;
+text-align: center;
+font-family: Verdana;
+font-weight: bold;
+font-size: 11px;
+color: #404040;}
+
+
+table.servicesT td
+{ border-bottom: 1px dotted #6699CC;
+font-family: Verdana, sans-serif, Arial;
+font-weight: normal;
+font-size: 11px;
+color: #404040;
+background-color: white;
+text-align: left;
+padding-left: 3px;} 
+
+.servBodL { border-left: 1px dotted #CEDCEA; } 
+
+table.contact
+{
+border: 1px #000000 solid;
+border-collapse: collapse;
+border-spacing: 0px; 
+font-family: Verdana, sans-serif, Arial;
+font-weight: bold;
+font-size: 90%;
+white-space: nowrap;}
+
+
+td.contactDept
+{/* background-color: #99CCCC;*/
+border: 1px #000000 solid;
+font-weight: bold;
+color: #404040; }
+
+
+td.contact
+{ border-bottom: 1px #6699CC dotted;
+text-align: left;
+color: #404040;
+white-space: nowrap;
+overflow: hidden;
+padding-top: 2px;
+padding-bottom: 2px;
+padding-left: 4px;
+padding-right: 2px; }
+
+td.contactNumber
+{
+	text-align: right;
+	font-weight: normal;
+	color: #404040;
+	}
+table.layout
+{ 
+	background-color: transparent;
+	border: 0;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	}
+
+table.layouttable
+{
+white-space: nowrap;
+}
+
+table.detail	
+{ font-family: Verdana;
+font-weight: normal;
+font-size: 11px;
+color: #404040;
+background-color: #fafafa;
+border: 1px #6699CC solid;
+border-collapse: collapse;
+border-spacing: 0px;
+margin-top: 0px;
+white-space:nowrap;}
+
+table.detail td.data
+{
+	border-bottom: 2px solid #6699CC;
+	background-color: #6600CC;
+	text-align: left;
+	white-space: nowrap;
+}
+
+table.detail td.header
+{
+	border-bottom: 2px solid #6699CC;
+	background-color: #BEC8D1;
+	text-align: center;
+	font-weight: bold;
+	font-size: 11px;
+	color: #404040;
+	white-space: nowrap;
+}
+.Smalltable
+{
+	background-color: white;
+	border: 1px black solid;
+	border-collapse: collapse;
+	font-size: 9pt;
+	font-family: verdana, sans-serif;
+}
+  .Smalltable  th {
+        border: 1px outset silver;
+        background-color: #24618E;
+        color: white;
+      }
+   .Smalltable tr {
+        background-color: white;
+        margin: 1px;
+      }
+   .Smalltable   tr.striped {
+        background-color: #dcdcdc;
+      }
+  .Smalltable  td {
+        padding: 1px 8px;
+        white-space: nowrap;
+      }
+  .Smalltable a
+    {
+	    text-decoration: none;
+	    cursor: hand;
+    }
+  .Smalltable a:hover {
+	color: #33627d;
+	text-decoration: none;
+	background-color: #99CCFF;
+}  
+
+.columnNW
+	{
+	  white-space: nowrap; 
+	}
+.designtable
+{
+	border-style: none;
+	padding: 10;
+	}
+.designtable td
+{
+	vertical-align: top;
+	/*text-align: left;
+	padding: 1px 8px;
+	white-space: nowrap;
+	color: #000080;*/
+}
+.designtable td a
+{
+	/*color: #000080;
+	cursor: pointer;
+	background-color: #CCCCCC;
+	cursor:pointer;*/
+}
+ .designtable th {
+        border: 1px outset silver;
+        color: white;
+      }
+img
+{
+	border-style: none;
+	cursor: pointer;
+} 
