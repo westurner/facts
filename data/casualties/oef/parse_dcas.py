@@ -71,7 +71,11 @@ def parse_dcas_monthly(path):
             #else:
             #    print('#', l)
 
-#!apt-get install poppler-utils
-#!pdftotext -layout ./OEFMonthly.pdf
-for l in parse_dcas_monthly('./OEFMonthly.txt'):
-    print l
+def main():
+    #!apt-get install poppler-utils
+    #!pdftotext -layout ./OEFMonthly.pdf
+    for l in parse_dcas_monthly('./OEFMonthly.txt'):
+        print l
+
+if __name__ == "__main__":
+    main()
